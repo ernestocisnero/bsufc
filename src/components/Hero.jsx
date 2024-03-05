@@ -8,6 +8,13 @@ const Hero = () => {
                     src={SoccerFieldHero}
                     alt="Soccer Field"
                 />
+                <div className="absolute inset-0 flex items-center justify-center bg-nav-dark bg-opacity-35">
+                    <div className="text-justify text-white">
+                        <h2 className="text-5xl font-bold">Boiling Springs United FC</h2>
+                        <p className="text-3xl">Mid-Atlantic</p>
+                        <p className="text-2xl">Boiling Springs, SC</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
