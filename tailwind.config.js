@@ -8,6 +8,7 @@ export default {
     extend: {
       colors:{
           'nav-dark': '#232222',
+          'primary-letter':'#469D97'
       },
     },
   },

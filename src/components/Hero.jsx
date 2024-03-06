@@ -1,22 +1,14 @@
-import SoccerFieldHero from '../assets/SoccerFieldHero.png'
 const Hero = () => {
     return (
-        <div className="relative flex flex-wrap items-center justify-between mb-3">
-            <div className="container mx-auto flex flex-wrap items-center justify-between">
-                <img
-                    className="h-48 w-full object-cover object-contain"
-                    src={SoccerFieldHero}
-                    alt="Soccer Field"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-nav-dark bg-opacity-35">
-                    <div className="text-justify text-white">
-                        <h2 className="text-5xl font-bold">Boiling Springs United FC</h2>
-                        <p className="text-3xl">Mid-Atlantic</p>
-                        <p className="text-2xl">Boiling Springs, SC</p>
-                    </div>
+        <section className="bg-gray-900 bg-opacity-80 text-primary-letter pt-16 pb-6">
+            <div className="container mx-auto px-4">
+                <div className="max-w-4xl mx-auto text-center">
+                    <h1 className="text-4xl sm:text-5xl font-bold mb-2">Boiling Springs United FC</h1>
+                    <h2 className="text-lg sm:text-xl mb-1">Mid-Atlantic</h2>
+                    <h3 className="text-lg sm:text-xl mb-1">Boiling Springs, SC</h3>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 
