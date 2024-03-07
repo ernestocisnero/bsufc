@@ -15,7 +15,7 @@ const Navbar = () => {
                             className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
                             href="#pablo"
                         >
-                            <img src={bsufclogo} alt="Overlay Image" className="absolute top-0 left-0 lg:top-3 lg:left-24 h-24 w-24 object-cover z-0 rounded-full"/>
+                            <img src={bsufclogo} alt="Overlay Image" className="absolute top-0 left-0 lg:top-2 lg:left-24 h-12 w-12 object-cover z-0 rounded-full"/>
                         </a>
                         <button
                             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -37,7 +37,7 @@ const Navbar = () => {
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-primary-letter hover:opacity-75"
+                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">PLAYERS</span>
@@ -45,7 +45,7 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-primary-letter hover:opacity-75"
+                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">STAFF</span>
@@ -53,7 +53,7 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-primary-letter hover:opacity-75"
+                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">STANDINGS</span>
@@ -61,7 +61,7 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-primary-letter hover:opacity-75"
+                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">SCHEDULE</span>
